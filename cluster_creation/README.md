@@ -21,3 +21,5 @@ mypod: This is the name given to the Pod being created.
 
 ## Declarative way
 
+![image](https://github.com/user-attachments/assets/3a9a7e7f-11c4-4aa4-9bca-6d57cf919ad4)
+
