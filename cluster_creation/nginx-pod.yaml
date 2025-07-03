@@ -1,0 +1,13 @@
+# nginx-pod.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mypod-declarative # A new name to distinguish it from the imperative one
+  labels:
+    app: nginx # Labeling your pod is good practice
+spec:
+  containers:
+  - name: nginx-container # Name of the container within the pod
+    image: nginx:latest
+    ports:
+    - containerPort: 8600 # This matches the --port 8600 from imperative
