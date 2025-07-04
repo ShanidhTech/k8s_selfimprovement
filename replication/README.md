@@ -9,3 +9,9 @@ Ensures a specified number of pod replicas are running. Legacy, replaced by Repl
 
 
 ## ReplicaSet
+
+
+![image](https://github.com/user-attachments/assets/ca7b790c-5029-453e-ae25-4bdb30122950)
+
+
+Newer version of RC; more expressive pod matching.
