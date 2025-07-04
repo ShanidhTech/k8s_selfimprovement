@@ -15,3 +15,13 @@ Ensures a specified number of pod replicas are running. Legacy, replaced by Repl
 
 
 Newer version of RC; more expressive pod matching.
+
+
+
+## Deployment
+
+
+![Screenshot from 2025-07-04 14-34-23](https://github.com/user-attachments/assets/5b77ad19-cc7a-49d1-bfd1-5c9a84c7c8c3)
+
+
+Manages ReplicaSets and provides rolling updates, rollbacks, and scaling. Recommended way to manage Pods.
