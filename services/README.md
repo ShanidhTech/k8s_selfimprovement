@@ -23,3 +23,10 @@ Its primary purpose is to expose a Service on a cluster-internal IP address. Thi
 ![image](https://github.com/user-attachments/assets/892d04ad-83ef-4b06-804c-5fbb79b06360)
 
 The NodePort Service exposes the Service on a static port on each Node in the cluster. This allows external traffic to reach your application by connecting to any Node's IP address on the specified NodePort.
+
+
+![image](https://github.com/user-attachments/assets/c903a6e2-2700-4e00-b9eb-a6972467f19a)
+
+try running `kubectl get nodes -o wide` to see the IP of the "node" (which might be 127.0.0.1 or an internal Docker network IP) and test that.
+
+![image](https://github.com/user-attachments/assets/665ee8b7-0842-4b58-9271-18ebbaac7489)
